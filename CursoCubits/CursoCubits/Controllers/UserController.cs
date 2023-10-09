@@ -1,13 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CursoCubits.Models;
+using Microsoft.AspNetCore.Mvc;
+using ObtenerUsuario;
 
 namespace CursoCubits.Controllers
 {
     [Route("users")]
-    public class UserController : Controller
+    public class UsersController : Controller
     {
-        public IActionResult Index()
+        [Route("getList")]
+        public async Task<IActionResult> GetList()
         {
-            return View();
+            var servicio = new ServiceClient();
+            var userService = await servicio.GetUserAsync(1);
+            var usuario = new UserModel
+            {
+                Nombre = userService.Nombre,
+                Apellido = userService.Apellido
+            };
+
+            return View("Indes", usuario);
         }
     }
 }

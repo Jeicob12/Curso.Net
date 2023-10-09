@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacob\\source\\repos\\CursoCubits\\CursoCubits\\CursoCubits.csproj": {}
+    "C:\\Users\\Jacob\\Desktop\\Curso.Net\\CursoCubits\\CursoCubits\\CursoCubits.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacob\\source\\repos\\CursoCubits\\CursoCubits\\CursoCubits.csproj": {
+    "C:\\Users\\Jacob\\Desktop\\Curso.Net\\CursoCubits\\CursoCubits\\CursoCubits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacob\\source\\repos\\CursoCubits\\CursoCubits\\CursoCubits.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob\\Desktop\\Curso.Net\\CursoCubits\\CursoCubits\\CursoCubits.csproj",
         "projectName": "CursoCubits",
-        "projectPath": "C:\\Users\\Jacob\\source\\repos\\CursoCubits\\CursoCubits\\CursoCubits.csproj",
+        "projectPath": "C:\\Users\\Jacob\\Desktop\\Curso.Net\\CursoCubits\\CursoCubits\\CursoCubits.csproj",
         "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacob\\source\\repos\\CursoCubits\\CursoCubits\\obj\\",
+        "outputPath": "C:\\Users\\Jacob\\Desktop\\Curso.Net\\CursoCubits\\CursoCubits\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

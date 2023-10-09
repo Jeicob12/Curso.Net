@@ -33,7 +33,7 @@ namespace Curso_Net
             return new Usuario()
             {
                 Nombre = "Juan",
-                Apellido = "perez"
+                Apellido = "perez",
             };
         }
     }
