@@ -1,0 +1,7 @@
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\bin\Debug\Curso_Net.dll.config
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\bin\Debug\Curso_Net.dll
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\bin\Debug\Curso_Net.pdb
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\obj\Debug\Curso_Net.csproj.AssemblyReference.cache
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\obj\Debug\Curso_Net.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\obj\Debug\Curso_Net.dll
+C:\Users\Jacob\source\repos\Curso_Net\Curso_Net\obj\Debug\Curso_Net.pdb
